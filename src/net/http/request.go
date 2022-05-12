@@ -284,6 +284,8 @@ type Request struct {
 	// handler.
 	// This field is ignored by the HTTP client.
 	RemoteAddr string
+	
+	LocalAddr string
 
 	// RequestURI is the unmodified request-target of the
 	// Request-Line (RFC 7230, Section 3.1.1) as sent by the client
